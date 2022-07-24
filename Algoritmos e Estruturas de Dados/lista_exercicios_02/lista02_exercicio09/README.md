@@ -1,0 +1,2 @@
+9. Escreva um algoritmo que leia o número de identificação do aluno, 3 notas obtidas e calcule a média aritmética obtida pelo aluno.
+Ao final informe se o aluno foi aprovado direto, ficou em recuperação ou foi reprovado por nota.
