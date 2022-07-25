@@ -1,0 +1,185 @@
+-- Lista 002 -- Willyan Goergen de Souza
+-- 1)
+CREATE DATABASE lista002; 
+USE lista002;
+-- 2)
+CREATE TABLE alunos (
+	codigo INT PRIMARY KEY,
+   	nome VARCHAR(50),
+    	telefone VARCHAR(50),
+    	cidade VARCHAR(50)
+);
+-- 3)
+DESC alunos;
+-- 4)
+CREATE TABLE alunos2 (
+	codigo INT PRIMARY KEY,
+    	nome VARCHAR(200),
+	telefone VARCHAR(50),
+    	cidade VARCHAR(100) 
+);
+-- 5)
+CREATE TABLE funcionarios (
+	nome VARCHAR(50) NOT NULL,
+    	endereco VARCHAR(200),
+    	telefone VARCHAR(15),
+    	cidade VARCHAR(100),
+    	estado_sigla CHAR(2),
+    	cep CHAR(8),
+    	rg VARCHAR(14),
+    	cpf CHAR(11),
+    	salario DECIMAL(5,2),
+    	PRIMARY KEY (cpf)
+);
+-- 6)
+CREATE TABLE fornecedores (
+	nome VARCHAR(70) NOT NULL,
+    	endereco VARCHAR(200),
+    	telefone VARCHAR(15),
+    	cidade VARCHAR(100),
+    	estado_sigla CHAR(2),
+    	cep CHAR(8),
+    	cnpj CHAR(14) PRIMARY KEY,
+    	email VARCHAR(50)
+);
+-- 7)
+CREATE TABLE livros (
+	codigo INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+    	nome VARCHAR(100),
+    	categoria VARCHAR(50),
+    	resumo VARCHAR(500),
+    	preco_custo FLOAT,
+    	preco_venda FLOAT
+);
+-- 8)
+DESC alunos;
+DESC alunos2;
+DESC funcionarios;
+DESC fornecedores;
+DESC livros;
+-- 9)
+CREATE TABLE estoque (
+	codigo INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+    	nomedoproduto VARCHAR(100),
+    	categoria VARCHAR(50),
+    	quantidade INT NOT NULL CHECK(quantidade>=0),
+    	fornecedor VARCHAR(100)
+);
+-- 10)
+CREATE TABLE notas (
+	codigo INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+    	nomedoaluno VARCHAR(100),
+    	bimestre SMALLINT
+);
+-- 11)
+CREATE TABLE caixa (
+	codigo INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+    	data_caixa DATETIME,
+    	descricao VARCHAR(200),
+    	debito FLOAT,
+    	credito FLOAT
+);
+-- s/n)
+CREATE TABLE contasAPagar (
+	codigo INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+    	data_conta DATE,
+    	descricao VARCHAR(200),
+    	valor FLOAT,
+    	data_pagamento DATE
+);
+-- 12)
+CREATE TABLE contasAReceber (
+	codigo INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+    	data_conta DATE,
+    	descricao VARCHAR(200),
+    	valor FLOAT,
+    	data_recebimento DATE
+);
+-- 13)    
+CREATE TABLE filmes (
+	codigo INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+    	nome VARCHAR(100),
+    	sinopse VARCHAR(500),
+    	categoria VARCHAR(50),
+    	diretor VARCHAR(100)
+);
+-- 14)
+CREATE TABLE CDs (
+	codigo INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+    	nome VARCHAR(100),
+    	cantor VARCHAR(100),
+    	ano SMALLINT,
+    	quantidadedemusicas SMALLINT
+);
+-- 15)
+DROP TABLE alunos2;
+-- 16)
+DESC alunos2;
+-- 17)
+DROP TABLE livros;
+-- 18)
+DROP TABLE contasAPagar;
+-- 19)
+DROP TABLE contasAReceber;
+-- 20)
+DROP TABLE filmes;
+-- 21)
+DESC livros;
+DESC filmes;
+DESC CDs;
+DESC caixa;
+-- 22)
+ALTER TABLE alunos RENAME TO super_alunos;
+-- 23)
+DESC alunos;
+DESC super_alunos;
+-- 24)
+ALTER TABLE estoque RENAME TO produtos;
+-- 25)
+ALTER TABLE notas RENAME TO aprovados;
+-- 26)
+ALTER TABLE aprovados RENAME TO notas;
+-- 27) tabela "dinheiro" inexistente, considerei a tabela "caixa"
+DROP TABLE caixa;
+-- 28)
+DROP TABLE notas;
+-- 29)
+ALTER TABLE super_alunos RENAME TO alunos;
+-- 30)
+ALTER TABLE alunos RENAME TO estudantes;
+-- 31)
+ALTER TABLE estudantes RENAME TO super_estudantes;
+-- 32)
+DESC estudantes;
+DESC super_estudantes;
+-- 33)
+DROP TABLE super_estudantes;
+-- 34)
+DESC super_estudantes;
+DESC alunos;
+-- 35) (obs.: recriei a tabela alunos (item 2) para poder incluir o atributo)
+CREATE TABLE alunos (
+	codigo INT PRIMARY KEY,
+    	nome VARCHAR(50),
+    	telefone VARCHAR(50),
+    	cidade VARCHAR(50)
+);
+ALTER TABLE alunos ADD estado VARCHAR(50);
+DESC alunos;
+-- 36)
+CREATE TABLE caixa (
+	codigo INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+    	data_caixa DATETIME,
+    	descricao VARCHAR(200),
+    	debito FLOAT,
+    	credito FLOAT
+);
+-- 37)
+ALTER TABLE caixa ADD observacao VARCHAR(100);
+-- 38)
+ALTER TABLE alunos ADD cpf CHAR(11);
+-- 39)
+DESC caixa;
+-- 40)
+ALTER TABLE caixa ADD saldo FLOAT;
+DESC caixa;
