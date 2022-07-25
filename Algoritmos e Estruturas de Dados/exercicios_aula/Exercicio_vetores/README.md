@@ -1,0 +1,1 @@
+EXERCICIO = Fazer um vetor de 10 posições, que receba os valores do usuário, e printe na tela o maior e o menor valor.

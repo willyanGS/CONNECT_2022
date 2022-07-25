@@ -1,0 +1,1 @@
+EXERCICIO (aula vetor) = criar algoritmo para ordenação (decrescente) com selection sort. 

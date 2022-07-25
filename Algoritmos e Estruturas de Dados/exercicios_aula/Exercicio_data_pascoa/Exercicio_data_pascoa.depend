@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1658521606 source:c:\users\willyan\desktop\connect 2022\# algoritmos e estruturas de dados\programs c\exemplos aula\exercicio_data_pascoa\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
