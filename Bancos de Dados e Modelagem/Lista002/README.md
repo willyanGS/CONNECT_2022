@@ -1,0 +1,1 @@
+Exercicio = Desenvolver o Script criando o banco no WorkBench utilizando o MYSQL.
