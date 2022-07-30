@@ -1,0 +1,1 @@
+4. Leia o nome de um usuário e um número N e escreva o nome dele na tela N vezes.

@@ -1,0 +1,2 @@
+18. Escreva um algoritmo que leia a quantidade de alunos em uma turma. Em seguida, para cada aluno, leia a informação de suas 2 notas, calcule a média e informe se o aluno está aprovado ou reprovado. O aluno está aprovado apenas se a sua média for maior
+ou igual a 6.
