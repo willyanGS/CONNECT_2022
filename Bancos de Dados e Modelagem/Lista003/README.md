@@ -1,0 +1,3 @@
+LISTA DE EXERCÍCIOS: COMANDOS DE DEFINIÇÃO DE DADOS – DDL
+
+(Software utilizado: MySQL)
