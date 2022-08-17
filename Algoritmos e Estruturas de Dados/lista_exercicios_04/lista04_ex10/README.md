@@ -1,0 +1,1 @@
+10. Elabore um algoritmo que leia um vetor e em seguida apresente o vetor ordenado – use o método de ordenação que preferir.
