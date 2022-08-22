@@ -37,6 +37,17 @@ int main()
     to_lower(frase3);
     printf("\n\nMinusculo = {%s}", frase3);
 
+    printf("\n\nClassificacao alfabetica string: ");
+    int comp;
+    comp = strcmp(frase, "aaab");
+    if (comp == 0)
+        printf("Iguais");
+    else if (comp < 0)
+        printf ("Primeira string");
+    else if (comp > 0)
+        printf("Segunda string");
+
+
     printf("\n");
     return 0;
 }
@@ -68,6 +79,21 @@ void strcat(char str1[], char str2[], char str_total[]) {
         str_total[j] = str2[k];
         k++;
     }
+}
+
+// comparacao alfabetica (ASCII) de strings
+int strcmp(char str1[], char str2[]) {
+    for (int i=0; ( i<(strlen(str1)+1) && i<(strlen(str2)+1) ) ; i++){
+        to_lower(str1);
+        to_lower(str2);
+        if (str1[i] < str2[i])
+            return -1;
+        else if (str1[i] > str2[i])
+            return 1;
+        else
+            continue;
+    }
+    return 0;
 }
 
 // converter tudo para maiusculo
