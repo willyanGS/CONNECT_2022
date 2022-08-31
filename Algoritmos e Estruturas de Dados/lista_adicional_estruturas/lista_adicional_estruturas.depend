@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1660857064 source:c:\users\willyan\desktop\connect 2022\# algoritmos e estruturas de dados\programs c\lista_adicional_estruturas\exercicio1b.c
+	<stdio.h>
+
+1660926333 source:c:\users\willyan\desktop\connect 2022\# algoritmos e estruturas de dados\programs c\lista_adicional_estruturas\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1660923731 source:c:\users\willyan\desktop\connect 2022\# algoritmos e estruturas de dados\programs c\lista_adicional_estruturas\exercicio2b.c
+
+1660926333 source:c:\users\willyan\desktop\connect 2022\# algoritmos e estruturas de dados\programs c\lista_adicional_estruturas\exercicio2c.c
+	<stdio.h>
+
