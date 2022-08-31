@@ -3,6 +3,7 @@
 
 // lista adicional 1
 
+// Apagar "//" para executar o exercicio escolhido
 int main()
 {
 
