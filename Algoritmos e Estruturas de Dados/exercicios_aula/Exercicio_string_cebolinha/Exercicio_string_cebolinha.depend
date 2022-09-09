@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1661444116 source:c:\users\willyan\desktop\connect 2022\# algoritmos e estruturas de dados\programs c\programas_aula\exercicios_aula\exercicio_string_cebolinha\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
