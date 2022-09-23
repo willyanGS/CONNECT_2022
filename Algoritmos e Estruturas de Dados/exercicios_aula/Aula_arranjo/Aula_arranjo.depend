@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1663555250 source:c:\users\willyan\desktop\connect 2022\# algoritmos e estruturas de dados\programs c\programas_aula\exemplos_aula\aula_arranjo\arranjo_funcoes.c
+	"arranjo_funcoes.h"
+
+1663555250 c:\users\willyan\desktop\connect 2022\# algoritmos e estruturas de dados\programs c\programas_aula\exemplos_aula\aula_arranjo\arranjo_funcoes.h
+	<stdbool.h>
+
+1663554953 source:c:\users\willyan\desktop\connect 2022\# algoritmos e estruturas de dados\programs c\programas_aula\exemplos_aula\aula_arranjo\main.c
+	<stdio.h>
+	<stdlib.h>
+	"arranjo_funcoes.h"
+

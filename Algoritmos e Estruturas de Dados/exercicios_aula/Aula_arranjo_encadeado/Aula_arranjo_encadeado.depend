@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1663903020 source:c:\users\willyan\desktop\connect 2022\# algoritmos e estruturas de dados\programs c\programas_aula\exemplos_aula\aula_arranjo_encadeado\arranjo_encadeado_funcoes.c
+	"arranjo_encadeado_funcoes.h"
+
+1663902337 c:\users\willyan\desktop\connect 2022\# algoritmos e estruturas de dados\programs c\programas_aula\exemplos_aula\aula_arranjo_encadeado\arranjo_encadeado_funcoes.h
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+
+1663902995 source:c:\users\willyan\desktop\connect 2022\# algoritmos e estruturas de dados\programs c\programas_aula\exemplos_aula\aula_arranjo_encadeado\main.c
+	<stdio.h>
+	<stdlib.h>
+	"arranjo_encadeado_funcoes.h"
+

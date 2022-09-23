@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1663698721 source:c:\users\willyan\desktop\connect 2022\# algoritmos e estruturas de dados\programs c\programas_aula\exemplos_aula\aula_arranjo_malloc\main.c
+	<stdio.h>
+	<stdlib.h>
+	"arranjo_malloc_funcoes.h"
+
+1663697518 c:\users\willyan\desktop\connect 2022\# algoritmos e estruturas de dados\programs c\programas_aula\exemplos_aula\aula_arranjo_malloc\arranjo_malloc_funcoes.h
+	<stdbool.h>
+
+1663775913 source:c:\users\willyan\desktop\connect 2022\# algoritmos e estruturas de dados\programs c\programas_aula\exemplos_aula\aula_arranjo_malloc\arranjo_malloc_funcoes.c
+	<stdio.h>
+	<stdlib.h>
+	"arranjo_malloc_funcoes.h"
+
