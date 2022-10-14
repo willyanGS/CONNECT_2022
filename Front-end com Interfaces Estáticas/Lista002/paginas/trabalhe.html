@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../img/Biopark-Educacao.svg" type="image/x-icon">
+    <title>Trabalhe Conosco</title>
+</head>
+<body background="../img/fundo.png">
+
+    <!-- Cabeçalho -->
+    <table align="center" width="100%">
+        <tr>
+            <td align="left"><a href="../index.html"><img src="../img/Biopark-Educacao.svg" alt="Biopark Educacao"></a></td>
+            <td align="right"><big>
+                <a href="../paginas/sobre.html">Sobre o Biopark</a> 
+                |
+                <a href="../paginas/invista.html">Invista</a>
+                |
+                <a href="../paginas/empresas.html">Empresas</a>
+                |
+                <a href="../paginas/trabalhe.html">Trabalhe Conosco</a>
+            </big></td>
+        </tr>
+    </table>
+
+    <!-- Conteúdo -->
+    <h2 align="center">Trabalhe Conosco</h2>
+    <p align="justify">
+        &emsp;&emsp;Lorem ipsum dolor sit amet consectetur adipisicing elit. <strong>Maxime cumque expedita harum amet, laborum dolor dolore sint, tenetur animi accusamus omnis, nemo atque obcaecati ipsa esse!</strong> Ad ab deleniti placeat. Facilis, suscipit? Magni dolor placeat, nobis dolorum officiis labore corrupti. Sunt ab iure accusamus? Illum minus provident asperiores, ea facilis atque quibusdam? Maxime consequuntur consequatur animi cumque, odio ipsa eveniet! Tenetur enim voluptas ea ex quisquam optio vero non voluptatem ipsum reiciendis, maiores impedit sit sapiente quas culpa illo fugiat sequi repudiandae nobis fuga dolor modi aliquid consequuntur. Amet, laudantium.
+    </p>
+
+    <hr size="2" width="100%" color="gray" align="center">
+        
+    <p align="center">
+    <label for="vaga">Selecione a vaga desejada:</label><br>
+        <select name="vaga">
+            <option value="0">* Escolher *</option>
+            <option value="1">Auxiliar Administrativo</option>
+            <option value="2">Professor (Ensino Médio)</option>
+            <option value="3">Professor (Ensino Superior)</option>
+            <option value="4">Técnico de Laboratório</option>
+        </select>
+    </p>
+
+    <hr size="2" width="100%" color="gray" align="center">
+
+    <h3 align="center">Informação pessoal:</h3>
+    <p align="center">
+        <label for="nome">Nome:</label><br>
+            <input type="text" id="nome" name="Nome" placeholder="Digite seu nome completo">
+
+        <br><br>
+
+        <label for="nascimento">Data de nascimento:</label><br>
+            <input type="date" id="nascimento" name="nascimento" placeholder="dd/mm/aaaa">
+
+        <br>
+
+        <table align="center">
+            <tr>
+                <td colspan="2">
+                    <label for="sexo">Selecione seu sexo:</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="radio" name="sexo" id="masc" value="m">
+                </td>
+                <td>
+                    <label for="masc">Masculino</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="radio" name="sexo" id="femn" value="f">
+                </td>
+                <td>
+                    <label for="femn">Feminino</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="radio" name="sexo" id="outr" value="o">
+                </td>
+                <td>
+                    <label for="outr">Outro</label>
+                </td>
+            </tr>
+        </table>
+    </p>
+
+    <hr size="2" width="100%" color="gray" align="center">
+
+    <h3 align="center">Informação profissional:</h3>   
+    <p align="center">
+        <label for="formacao">Formação escolar/acadêmica:</label><br>
+        <select name="formacao">
+            <option value="0">* Escolher *</option>
+            <option value="1">Ensino Médio completo</option>
+            <option value="2">Ensino Técnico completo</option>
+            <option value="3">Ensino Superior completo</option>
+            <option value="4">Pós-graduação completa</option>
+        </select>
+
+        <br><br>
+
+        <label for="info">Infomações adicionais:</label><br>
+            <textarea id="info" name="info" rows="4" cols="50" placeholder="Descreva suas competências"></textarea>
+
+        <br><br>
+        <label for="curriculo">Adicionar <em>Curriculum Vitae</em>:</label><br>
+            <input type="file" name="curriculo" id="">
+    </p>
+
+    <hr size="2" width="100%" color="gray" align="center">
+
+    <h3 align="center">Informação de contato:</h3>   
+    <p align="center">
+        <label for="nome">E-mail:</label><br>
+            <input type="text" id="nome" name="Nome" placeholder="Digite seu e-mail">
+
+        <br><br>
+
+        <label for="nome">Celular:</label><br>
+            <input type="text" id="nome" name="Nome" placeholder="(XX)XXXXX-XXXX">
+    </p>
+
+    <hr size="2" width="100%" color="gray" align="center">
+
+    <form action='../index.html' onsubmit="javascript:alert('Enviado com sucesso')">
+    <p align="center">
+        <input type="submit" value="Enviar">
+    </p>
+    </form>          
+    
+</body>
+</html>
