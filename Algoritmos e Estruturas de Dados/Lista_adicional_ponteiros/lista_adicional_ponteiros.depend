@@ -1,0 +1,34 @@
+# depslib dependency file v1.0
+1662148972 source:c:\users\willyan\desktop\connect 2022\# algoritmos e estruturas de dados\programs c\lista_adicional_ponteiros\exercicio1.c
+	<stdio.h>
+
+1664933662 source:c:\users\willyan\desktop\connect 2022\# algoritmos e estruturas de dados\programs c\lista_adicional_ponteiros\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1662333815 source:c:\users\willyan\desktop\connect 2022\# algoritmos e estruturas de dados\programs c\lista_adicional_ponteiros\exercicio2.c
+	<stdio.h>
+
+1662482776 source:c:\users\willyan\desktop\connect 2022\# algoritmos e estruturas de dados\programs c\lista_adicional_ponteiros\exercicio3.c
+	<stdio.h>
+
+1664144153 source:c:\users\willyan\desktop\connect 2022\# algoritmos e estruturas de dados\programs c\lista_adicional_ponteiros\exercicio4.c
+	<stdio.h>
+
+1664145698 source:c:\users\willyan\desktop\connect 2022\# algoritmos e estruturas de dados\programs c\lista_adicional_ponteiros\exercicio5.c
+	<stdio.h>
+
+1664145967 source:c:\users\willyan\desktop\connect 2022\# algoritmos e estruturas de dados\programs c\lista_adicional_ponteiros\exercicio6.c
+	<stdio.h>
+
+1664148315 source:c:\users\willyan\desktop\connect 2022\# algoritmos e estruturas de dados\programs c\lista_adicional_ponteiros\exercicio7.c
+	<stdio.h>
+	<math.h>
+
+1665018756 source:c:\users\willyan\desktop\connect 2022\# algoritmos e estruturas de dados\programs c\lista_adicional_ponteiros\exercicio8.c
+	<stdio.h>
+
+1665021518 source:c:\users\willyan\desktop\connect 2022\# algoritmos e estruturas de dados\programs c\lista_adicional_ponteiros\exercicio9.c
+	<stdio.h>
+	<math.h>
+
