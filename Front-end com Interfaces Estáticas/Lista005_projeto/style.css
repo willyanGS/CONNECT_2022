@@ -1,0 +1,266 @@
+/* BODY */
+
+* {
+    margin: 0;
+}
+body {
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* HEADER */
+
+header {
+    background-image: linear-gradient(#000000, #2e2e2e, #424242);
+    font-family: monospace;
+    text-shadow: 0px 0px 3px gray;
+    text-align: center;
+    color: rgb(7, 211, 7);
+}
+header:hover {
+    cursor: not-allowed;
+}
+
+.ola {
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translate(-50%, -0%);
+    -ms-transform: translate(-50%, -0%);
+    transform: translate(-50%, -0%);
+    text-align: center;
+}
+.ola::after {
+    content: attr(data-text);
+    opacity: 0;
+    animation: fader 4s 1 linear;
+}
+.bemvindo {
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translate(-50%, -0%);
+    -ms-transform: translate(-50%, -0%);
+    transform: translate(-50%, -0%);
+    text-align: center;
+}
+.bemvindo::after {
+    content: attr(data-text);
+    opacity: 0;
+    animation: fader 4s 1 linear 3s;
+}
+@keyframes fader {
+    0% {
+        opacity: 0;
+    }
+    20% {
+        opacity: 0;
+    }
+    60% {
+        opacity: 1;
+    }
+    80% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+@media screen and (max-width: 836px) {
+    .bemvindo::after {
+        content: attr(data-text2);
+    }
+}
+.willyan {
+    position: relative;
+}
+.willyan::after {
+    content: attr(data-text);
+    opacity: 1;
+    animation: fadein 9s 1 linear;
+}
+@keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+    80% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+/* MAIN */
+
+main {
+    overflow: scroll;
+    height: 100%;
+    background-image: linear-gradient(#424242, #000000);
+}
+@media screen and ((max-height: 700px) or (max-width: 627px)) {
+    .row {
+        padding-bottom: 35px;
+    }
+}
+
+.descerEfeito {
+    height: 0;
+    transition: 500ms ease-in;
+    background-image: linear-gradient(#424242, #00000030);
+}
+main:hover .descerEfeito {
+    height: 100%;
+    transition: 1000ms ease-in;
+    background-image: linear-gradient(#42424200, #00000000);
+}
+
+.descer {
+    position: relative;
+    top: -100em;
+    transition: 500ms;
+}
+main:hover .descer {
+    top: 0;
+    transition: 1000ms;
+}
+
+    /* Scollbar */
+::-webkit-scrollbar {
+    width: 4px;
+    height: 3px;
+}
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+::-webkit-scrollbar-thumb {
+    background: #2e2e2e;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+    /* Blocos */
+.bloco {
+    color: rgb(7, 211, 7);
+    transition: 0.5s;
+    /* border: 2px solid white; */
+    border-radius: 10%;
+    max-width: 300px;
+    min-height: 250px;
+    margin: 2% 1%;
+    align-self: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale(0.8);
+    backdrop-filter: blur(50px);
+}
+.bloco:hover {
+    transition: 1s ease-in-out 500ms;
+    transform: scale(1.04);
+    cursor: crosshair;
+    background-image: url('./img/matrix-unscreen.gif');
+    backdrop-filter: none;
+}
+
+.bloco p {
+    text-shadow: 0px 0px 3px black;
+    font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+    transition: 0.5s;
+    opacity: 0;
+}
+.bloco:hover p {
+    transition: 3s ease-out 500ms;
+    opacity: 1;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.devicons {
+    flex-direction: row;
+    gap: 1.5rem;
+    position: relative;
+    height: 50px;
+    width: 100%;
+    transition: 500ms;
+    opacity: 0;
+}
+.bloco:hover .devicons {
+    transition: 1s ease-out 1.5s;
+    opacity: 1;
+}
+
+.devicons svg {
+    position: relative;
+    height: 100%;
+    width: auto;
+}
+.devicons>svg:hover{
+    transform: scale(1.15);
+    background: radial-gradient(#36c555, #45ff7438, #ffffff00, #ffffff00) ;
+}
+
+
+/* FOOTER */
+
+footer {
+    background-color: #000000;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    align-self: flex-end;
+    height: 55px;
+    overflow: hidden;
+}
+
+.rodape {
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sumirRodape {
+    position: relative;
+    bottom: 0;
+    transition: 500ms 100ms;
+}
+.rodape:hover .sumirRodape {
+    bottom: -55px;
+    transition: 500ms 200ms;
+}
+
+.contato {
+    background-image: linear-gradient(#000000, #424242);
+    width: 100%;
+    transition: 500ms;
+    position: relative;
+    top: 0px;
+}
+.rodape:hover .contato {
+    top: -55px;
+    height: 100%;
+    transition: 800ms 500ms;
+    height: 60px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.icons>a>.btn{
+    color: white;
+    margin: 8px 1.5vw;
+    width: 35px;
+    height: 35px;
+    padding: 0px;
+    line-height: 0.8em;
+    border-radius: 50%;
+}
