@@ -1,0 +1,150 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background: radial-gradient(green, darkgreen, black) fixed;
+}
+
+header{
+    font-family: 'Courier New', Courier, monospace;
+    width: 95%;
+    position: fixed;
+    top: 0px;
+    left: 2.5%;
+}
+
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    color: rgb(4, 12, 3);
+    text-shadow: 0px 0px 7px white;
+    font-size: 3em;
+    margin-top: 55px;
+}
+
+#menu {
+    text-align: center;
+    background-color: darkgray;
+    padding: 2px;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-radius: 8px;
+    font-size: 1.2em;
+}
+
+.options {
+    width: 25%;
+    margin: 3%;
+}
+
+.options:hover {
+    font-weight: 900;
+}
+
+.options a:link, .options a:visited {
+    color: darkgreen;
+}
+
+.photo {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.reference {
+    display: inline;
+    color: lightgray;
+}
+
+h2{
+    text-align: center;
+    color: white(4, 12, 3);
+    text-shadow: 2px 0px 10px black;
+    font-size: 2em;
+    text-decoration: underline;
+}
+
+text {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+}
+
+text li {
+    margin-bottom: 10px;
+    line-height: 1.25em;
+    margin-right: 25px;
+}
+
+.refer {
+    margin-top: 35px;
+    line-height: 0.3em;
+    margin-left: 20px;
+}
+
+.refer li {
+    list-style-type: "> ";
+    line-height: 0.7em;
+}
+
+footer {
+    text-align: center;
+    position: relative;
+    width: 95%;
+    margin: auto;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    text-shadow: 0px 0px 7px white;
+}
+
+.topo {
+    position: absolute;
+    right: 0;
+    top: -10px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: lightgreen !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.topo a {
+    font-size: 30px;
+    position: relative;
+    width: 100%;
+    text-decoration: none;
+    color: black;
+    margin-top: 5px;
+}
+
+.colunas {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    padding: 0 25px;
+}
+
+h3 {
+    text-align: center;
+    text-shadow: 2px 0px 10px black;
+    text-decoration: underline;
+    margin-bottom: 25px;
+}
+
+.coluna {
+    flex: 1;
+}
+
+.coluna p {
+    text-indent: 15px;
+    margin-top: -10px;
+    line-height: 1.1em;
+}
+
+.figura {
+    width: 70%;
+    margin: auto;
+}
